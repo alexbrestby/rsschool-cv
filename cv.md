@@ -28,3 +28,25 @@ I have a couple of apps in my portfolio, but i want to improve my Front_end skil
 -   JavaScript
 -   Python
 
+## ⌨️ Code Example
+```
+#include<stdio.h>
+
+int main(void)
+{
+  printf("hello world!\n");
+  return 0;
+}
+```
+
+
+## 👓 Education
+
+- 2021 [RSSchool][0] JS Stage0 course
+- 2018 Stepic *[Javascript][1]* for Beginners | Stepic *[Linux][2]* Introduction
+- 2002 Brest State University
+
+
+[0]: <https://rs.school/>
+[1]: <https://stepik.org/cert/119445?target=_blank>
+[2]: <https://stepik.org/cert/87283?target=_blank>
