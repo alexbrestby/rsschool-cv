@@ -51,4 +51,20 @@ int main(void)
 [1]: <https://stepik.org/cert/119445?target=_blank>
 [2]: <https://stepik.org/cert/87283?target=_blank>
 
+## 💼 Projects
+  - 👪 [gmina.by](https://gmina.by)
+    - genealogy, family, archives pet-project
+    - LARAVEL, MySQL
+  - 🚆 [railwayman helper](http://pte.hostronavt.ru/index.php)
+    - technical operation rules exam helper
+    - HTML, jQuery, AJAX, MySQL
+  - ⛪ [travel guide](http://btravel.hostronavt.ru)
+    - project designed by my daughter for school contest 
+    - HTML, CSS (Bootstrap), Javascript
 
+## 🗣️ Languages
+  - English (A1)*
+  - French (A2)
+  - Polish (B2)
+
+\* - <sub>boosted learning</sub>
