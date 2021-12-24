@@ -121,6 +121,7 @@ img {
     background-color: #f5f5f5;
     z-index: 100;
     opacity: 0.9;
+    transition: ease-in 0.5s;
 }
 
 nav li {
