@@ -1,1 +1,103 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    background: url(assets/img/background_full.avif) no-repeat center center fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    display: flex;
+    justify-content: center;
+    transition: ease 0.5s;
+}
+
+a {
+    color: #ffffff;
+}
+
+.wrapper {
+    width: 90vw;
+    min-height: 100%;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    color: #ffffff;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    padding: 0.5em;
+}
+
+.header-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 0.3em;
+}
+
+.header-main h1 {
+    font-weight: normal;
+    letter-spacing: 0.2em;
+    font-size: 2.4em;
+}
+
+.header-main p {
+    padding-bottom: 1em;
+    letter-spacing: 0.9em;
+    text-align: center;
+}
+
+.header-contacts {
+    display: flex;
+    justify-content: space-evenly;
+    min-width: 15em;
+}
+
+.header-contacts a * {
+    height: 3em;
+    background-color: #ffffff;
+    border-radius: 50%;
+    border: 2px solid #ffffff;
+    text-decoration: none;
+    transition: ease-in .2s;
+}
+
+.header-contacts a *:hover {
+    transform: scale(1.1);
+}
+
+.header-contacts__telegram a img:hover {
+    background-color: #0088cc;
+}
+
+.header-contacts__email a img:hover {
+    background-color: #ea4335;
+}
+
+.header-contacts__github a img:hover {
+    background-color: #6e5494;
+}
+
+img {
+    width: auto;
+    height: auto;
+    max-height: 100%;
+    max-width: 100%;
+}
