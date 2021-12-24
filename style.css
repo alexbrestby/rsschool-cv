@@ -330,3 +330,17 @@ td {
     text-align: left;
     padding-bottom: 1em;
 }
+
+.footer {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer a {
+    color: #000000;
+}
+
+.rs-school {
+    width: 5em;
+    height: 3em;
+}
